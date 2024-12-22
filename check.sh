@@ -14,12 +14,11 @@ for ((i = 1; ; ++i)); do
 done
 
 cat pattern
-echo "WA on the following test:" 
+echo -e "WA on the following test:" 
 cat in
 
-echo "Your Answer is:"
+echo -e "\nYour Answer is:"
 cat out1
 
-echo "Correct answer is:"
+echo -e "\nCorrect answer is:"
 cat out2
-
