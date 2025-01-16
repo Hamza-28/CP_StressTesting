@@ -3,8 +3,8 @@ using namespace std;
 
 int main(int argc, char* args[]) {
 
-	int x = atoi(args[1]);
-	mt19937 mt(x);
+	int _ = atoi(args[1]);
+	mt19937 rnd(_);
 	cout << mt() % 100 + 1 << "\n";
 
 	return 0;
