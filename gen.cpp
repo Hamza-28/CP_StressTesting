@@ -5,7 +5,7 @@ int main(int argc, char* args[]) {
 
 	int _ = atoi(args[1]);
 	mt19937 rnd(_);
-	cout << mt() % 100 + 1 << "\n";
+	cout << rnd() % 100 + 1 << "\n";
 
 	return 0;
 }
